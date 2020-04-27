@@ -27,11 +27,11 @@ public class MyFirstServlet extends HttpServlet {
         String student = request.getParameter("student");
         if (student == null) {
             response.setStatus(400);
-            response.getWriter().print("Param 'hike' cannot be null.");
+            response.getWriter().print("Param 'student' cannot be null.");
         }
         else if (this.students.contains(student)) {
             response.setStatus(400);
-            response.getWriter().print("The hike '"+student+"' already exists.");
+            response.getWriter().print("The student '"+student+"' already exists.");
         }
         else {
             this.students.add(student);
