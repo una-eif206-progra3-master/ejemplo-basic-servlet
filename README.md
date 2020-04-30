@@ -4,6 +4,7 @@ El siguiente ejemplo es para mostrar un servlet básico.
 ## Dependencias
 
 - Java
+- Jetty Server
 - Gradle
   - java -> Plug-in de java
   - war -> Para empaquetar la aplicación en un WAR (Web Application Resource or Web application Archive)
