@@ -33,8 +33,8 @@ dependencies {
 
 gretty {
     httpPort = 8080
-    contextPath = '/'}
-
+    contextPath = '/'
+}
 ```
 
 ## Probar el ejemplo
